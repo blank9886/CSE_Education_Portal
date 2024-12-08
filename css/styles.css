@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #2c3e50, #34495e);
+    color: white;
+    text-align: center;
+}
+
+header {
+    margin: 20px 0;
+}
+
+.glow {
+    color: #1abc9c;
+    text-shadow: 0 0 10px #1abc9c, 0 0 20px #1abc9c;
+}
+
+.btn-glow {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #1abc9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.btn-glow:hover {
+    background: #16a085;
+    transform: scale(1.1);
+}
+
+.subject-card {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.subject-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
